@@ -1,0 +1,50 @@
+{
+  "name": "hubot-slack-vote",
+  "description": "A hubot script that does the things",
+  "version": "0.0.5",
+  "author": {
+    "name": "Akira Yumiyama",
+    "email": "yumiyama.akira@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "hubot-scripts",
+    "slack",
+    "reactions",
+    "vote"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/akiray03/hubot-hubot-slack-vote.git"
+  },
+  "bugs": {
+    "url": "https://github.com/akiray03/hubot-hubot-slack-vote/issues"
+  },
+  "dependencies": {
+    "coffee-script": "~1.6",
+    "promise": "*",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*",
+    "grunt-mocha-test": "~0.7.0",
+    "grunt-release": "~0.6.0",
+    "matchdep": "~0.1.2",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+  "main": "index.coffee",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "readme": "# hubot-slack-vote\r\n\r\n![screencapture](hubot-slack-vote.gif)\r\n\r\nsee: http://qiita.com/akiray03/items/e649212d7749413365bd\r\n\r\nA hubot script that does the things\r\n\r\nSee [`src/hubot-slack-vote.coffee`](src/hubot-slack-vote.coffee) for full documentation.\r\n\r\n## Installation\r\n\r\nIn hubot project repo, run:\r\n\r\n`npm install hubot-slack-vote --save`\r\n\r\nThen add **hubot-slack-vote** to your `external-scripts.json`:\r\n\r\n```json\r\n[\"hubot-slack-vote\"]\r\n```\r\n\r\n## Sample Interaction\r\n\r\n```\r\nuser1>> hubot vote :dog: :cat:\r\n```\r\n",
+  "readmeFilename": "README.md",
+  "gitHead": "0412f1830b95ca2c485ae159df7fe4769a8416c7",
+  "homepage": "https://github.com/akiray03/hubot-hubot-slack-vote#readme",
+  "_id": "hubot-slack-vote@0.0.5",
+  "_shasum": "a2efed8d90e1162628c3cb36b8acd9b1399c6d4a",
+  "_from": "hubot-slack-vote",
+  "_resolved": "file:hubot-slack-vote"
+}
